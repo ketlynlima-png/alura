@@ -3,37 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Meu Blog Tech</title>
     <style>
+        body {
+            font-family: Arial, sans-serif, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+
         header {
-            background-color: #183c63;color: #FFFFFF;
+            background-color: #94d6d8;
+            color: #FFFFFF;
             text-align: center;
             max-width: 800px;
             margin: auto;
-            border: 5px solid #cf1010;
+            border-radius: 10px;
             padding: 16px;
         }
+
         main {
-                background-color: #FFFFFF;
-                color: #183c63;
+            background-color: #FFFFFF;
+            color: #61a3e0;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 24px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+
         img {
-                width: 80px;
-                height: 80px ;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Opcional: deixa a foto redonda */
+            object-fit: cover;
         }
     </style>
-
 </head>
 <body>
     <header>
-        <h1>Meu blog tech</h1>
-        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+        <h1>⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹</h1>
+        <p>𝑨𝒒𝒖𝒊 𝒆𝒓 𝒎𝒆𝒖 𝒔𝒊𝒕𝒆, 𝒆𝒏𝒕𝒂𝒐 𝒆𝒖 𝒇𝒂ç𝒐 𝒐 𝒒𝒖𝒆 𝒒𝒖𝒊𝒔𝒆𝒓. </p>
     </header>
     <main>
-        <img src="https://tinyurl.com/45xce76w" alt="Eles">
-        <h2>Meu primeiro post</h2>
-        <p>Por: Ketlyn Geovanna</p>
-        <p>Boas vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia</p>
+        <img src="https://i.pinimg.com/736x/f3/00/09/f300091a5e51cb1f465d013a79ac5f93.jpg" alt="Eles">
+        <h2>𝐌𝖾υ ρ𝗋𝗂ꭑ𝖾𝗂𝗋ⱺ ρⱺ𝗌𝗍 >⩊<</h2>
+        <p><strong>Por:</strong> 𝐊𝖾𝗍ᥣ𝗒𐓣 𝐆𝖾ⱺ𝗏α𐓣𐓣α</p>
+        <p>𝑩𝒐𝒂𝒔-𝒗𝒊𝒏𝒅𝒂𝒔 𝒂𝒐 𝒎𝒆𝒖 𝒏𝒐𝒗𝒐 𝒃𝒍𝒐𝒈! 𝑨𝒒𝒖𝒊 𝒗𝒐𝒖 𝒄𝒐𝒎𝒑𝒂𝒓𝒕𝒊𝒍𝒉𝒂𝒓 𝒅𝒊𝒄𝒂𝒔 𝒅𝒆 𝒑𝒓𝒐𝒈𝒓𝒂𝒎𝒂çã𝒐 𝒆 𝒄𝒖𝒓𝒊𝒐𝒔𝒊𝒅𝒂𝒅𝒆𝒔 𝒅𝒂 á𝒓𝒆𝒂 𝒅𝒆 𝒕𝒆𝒄𝒏𝒐𝒍𝒐𝒈𝒊𝒂.</p>
+        <button>&#128151<span>0</span></button>
+        <div>
     </main>
 </body>
+<script> 
+ const botao = document.querySelector ("button"); 
+botao.addEventListener ("click", botaoclicado);
+function botaoclicado() {console.log ("fui clicado");
+    let texto = botao.querySelector("span");
+    texto.textContent++;
+    }
+</script>
 </html>
